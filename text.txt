@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+void printData(int i1, char c1, float f1, double d1) {
+  printf("i = %i\n", i1);
+  printf("c = %c\n", c1);
+  printf("f = %f\n", f1);
+  printf("d = %f\n", d1);
+}
+
+int main() {
+
+  int i = 0;
+  char c = 'a';
+  float f = 3.1415;
+  double d = 3.1415926535897;
+
+  printf("i = %i\n", i);
+  printf("c = %c\n", c);
+  printf("f = %f\n", f);
+  printf("d = %f\n", d);
+
+  printf("i? ");
+  scanf("%i", &i);
+
+  printf("c? ");
+  scanf("%c", &c);
+
+  printf("f? ");
+  scanf("%f", &f);
+
+  printf("d? ");
+  scanf("%f", &f);
+  
+  
+  return 0;
+}
